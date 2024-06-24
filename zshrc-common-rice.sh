@@ -11,7 +11,7 @@ count() {   git rev-list --count HEAD ^$@                                 }
 source /dev/stdin <<< "$(curl https://gist.githubusercontent.com/khzs/ea5f71b7ad0ec6ada102a3addb10ce49/raw 2> /dev/null)"
 
 #
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 bindkey '\t\t' autosuggest-accept
 
 # this should be at the very very end of .zshrc
